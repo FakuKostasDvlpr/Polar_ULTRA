@@ -1,5 +1,4 @@
 import React from "react";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
 import Privacidad from "../ui/icons/Privacidad";
 import Security from "../ui/icons/Security";
 import "../../globals.css"
