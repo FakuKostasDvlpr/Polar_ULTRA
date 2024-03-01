@@ -1,38 +1,57 @@
 import React from "react";
 import { Card, CardFooter, Image, Button } from "@nextui-org/react";
-import productsData from "../../data/data";
+import Privacidad from "../ui/icons/Privacidad";
+import Security from "../ui/icons/Security";
+import "../../globals.css"
+import Temp from "../ui/icons/Temp";
+import Money from "../ui/icons/Money";
 
 export default function App() {
   return (
-    <div className="flex gap-10">
-      {productsData.map(item => (
-        <Card
-          key={item.id}
-          isFooterBlurred
-          radius="lg"
-          className="border-none relative gap-10"
-        >
-          <Image
-            alt={item.name}
-            className="object-cover"
-            height={200}
-            src={item.image}
-            width={200}
-          />
-          <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-            <p className="text-tiny text-white/80">Precio: ${item.price}</p>
-            <Button
-              className="text-tiny text-white bg-black/20"
-              variant="flat"
-              color="default"
-              radius="lg"
-              size="sm"
-            >
-              Notify me
-            </Button>
-          </CardFooter>
-        </Card>
-      ))}
+    <>
+    {/* 1 */}
+    <div className="flex gap-10 m-10">
+      <div className="grow h-[200px]">
+          <div className="card h-[200px] bg-white flex items-center card max-w-md mx-auto justify-center bg-neutral text-gray-300">
+            <div className="mb-3 gap-3 card-body text-center items-center flex justify-center flex-col">
+              <Security/>
+              <h2 className="card-title font-medium">Seguridad</h2>
+              <p className="hidden sm:block">Ofrecemos films antivandalicos que fortalecen la seguridad de tu espacio, proporcionando una capa adicional de protección contra posibles daños.</p>
+            </div>
+        </div>
+      </div>
+      <div className="grow gap-10 h-[200px]">
+          <div className="card  h-[200px] bg-white flex items-center card max-w-md mx-auto justify-center bg-neutral text-gray-300">
+            <div className="mb-3 gap-3 card-body text-center items-center flex justify-center flex-col">
+              <Privacidad/>
+              <h2 className="card-title font-medium">Privacidad</h2>
+              <p className="hidden sm:block">Transformamos tus espacios con materiales espejados y esmerilados, brindando la privacidad necesaria sin comprometer el estilo y la estética de tu entorno.</p>
+            </div>
+        </div>
+      </div>
     </div>
+    {/* 2 */}
+    <div className="flex gap-10 m-10">
+
+      <div className="grow h-[200px]">
+          <div className="card h-[200px] bg-white flex items-center card max-w-md mx-auto justify-center bg-neutral text-gray-300">
+            <div className="mb-3 gap-3 card-body text-center items-center flex justify-center flex-col">
+              <Temp/>
+              <h2 className="card-title font-medium">Aislamiento termico</h2>
+              <p className="hidden sm:block">Adaptamos nuestras soluciones a tus necesidades específicas, ofreciendo una amplia gama de films especiales que cumplen con los requisitos técnicos y estéticos de cada proyecto.</p>
+            </div>
+        </div>
+      </div>
+      <div className="grow h-[200px]">
+          <div className="card h-[200px] bg-white flex items-center card max-w-md mx-auto justify-center bg-neutral text-gray-300">
+            <div className="mb-3 gap-3 card-body text-center items-center flex justify-center flex-col">
+              <Money/>
+              <h2 className="card-title font-medium">Aislamiento termico</h2>
+              <p className="hidden sm:block">Adaptamos nuestras soluciones a tus necesidades específicas, ofreciendo una amplia gama de films especiales que cumplen con los requisitos técnicos y estéticos de cada proyecto.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    </>
   );
 }

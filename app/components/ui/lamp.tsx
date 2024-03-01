@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.9,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br font-medium from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl tracking-tight text-transparent md:text-7xl"
+        className="mt-8 bg-gradient-to-br font-medium from-slate-300 to-slate-500 bg-clip-text text-center text-5xl tracking-tight text-transparent md:text-7xl"
       >
         Polarsystem <br /> seguridad para tu <span className="text-blue-300">auto</span>
       </motion.h1>
@@ -32,7 +32,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative w-full h-screen flex min-h-screen flex-col items-center justify-center overflow-hidden bg-slate-950",
+        "relative w-full h-[700px] flex flex-col items-center justify-center overflow-hidden bg-slate-950",
         className
       )}
     >
@@ -95,8 +95,7 @@ export const LampContainer = ({
 
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 "></div>
       </div>
-
-      <div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
+      <div className=" flex -translate-y-80 flex-col items-center ">
         {children}
       </div>
     </div>
