@@ -14,7 +14,7 @@ export function LampDemo() {
           duration: 0.9,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br font-medium from-slate-300 to-slate-500 bg-clip-text text-center text-5xl tracking-tight text-transparent md:text-7xl"
+        className="mt-2 bg-gradient-to-br font-medium from-slate-300 to-slate-500 bg-clip-text text-center text-5xl tracking-tight text-transparent md:text-7xl p-3"
       >
         Polarsystem <br /> seguridad para tu <span className="text-blue-300">auto</span>
       </motion.h1>
@@ -39,7 +39,7 @@ export const LampContainer = ({
       <div className="relative flex w-full flex-1 scale-y-125 items-center justify-center isolate z-0 ">
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
-          whileInView={{ opacity: 1, width: "30rem" }}
+          whileInView={{ opacity: 1, width: "20rem" }}
           transition={{
             delay: 0.3,
             duration: 0.8,
@@ -55,7 +55,7 @@ export const LampContainer = ({
         </motion.div>
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}
-          whileInView={{ opacity: 1, width: "30rem" }}
+          whileInView={{ opacity: 1, width: "20rem" }}
           transition={{
             delay: 0.3,
             duration: 0.8,
@@ -73,8 +73,8 @@ export const LampContainer = ({
         <div className="absolute top-1/2 z-50 h-48 w-full bg-transparent opacity-10 backdrop-blur-md"></div>
         <div className="absolute inset-auto z-50 h-36 w-[28rem] -translate-y-1/2 rounded-full bg-cyan-500 opacity-50 blur-3xl"></div>
         <motion.div
-          initial={{ width: "8rem" }}
-          whileInView={{ width: "16rem" }}
+          initial={{ width: "10rem" }} //modificar anchura de LAMP
+          whileInView={{ width: "8rem" }}
           transition={{
             delay: 0.3,
             duration: 0.8,
@@ -83,8 +83,8 @@ export const LampContainer = ({
           className="absolute inset-auto z-30 h-36 w-64 -translate-y-[6rem] rounded-full bg-cyan-400 blur-2xl"
         ></motion.div>
         <motion.div
-          initial={{ width: "15rem" }}
-          whileInView={{ width: "30rem" }}
+          initial={{ width: "15rem" }} //LAMP
+          whileInView={{ width: "20rem" }}
           transition={{
             delay: 0.3,
             duration: 0.8,
