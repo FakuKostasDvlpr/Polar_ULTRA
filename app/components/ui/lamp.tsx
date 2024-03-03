@@ -5,9 +5,10 @@ import { cn } from "../../utils/cn2";
 
 export function LampDemo() {
   return (
+    <>
     <LampContainer>
       <motion.h1
-        initial={{ opacity: 0.5, y: 100 }}
+        initial={{ opacity: 0.5, y: 220 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{
           delay: 0.3,
@@ -19,6 +20,8 @@ export function LampDemo() {
         Polarsystem <br /> seguridad para tu <span className="text-blue-300">auto</span>
       </motion.h1>
     </LampContainer>
+    </>
+
   );
 }
 
@@ -32,7 +35,7 @@ export const LampContainer = ({
   return (
     <div
       className={cn(
-        "relative w-full h-[700px] flex flex-col items-center justify-center overflow-hidden bg-slate-950",
+        "relative w-full h-[750px] flex flex-col items-center justify-center overflow-hidden bg-slate-950",
         className
       )}
     >
