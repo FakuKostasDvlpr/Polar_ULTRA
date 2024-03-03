@@ -9,7 +9,7 @@ export function LampDemo() {
     <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 220 }}
-        whileInView={{ opacity: 1, y: 23 }}
+        whileInView={{ opacity: 1, y: 50 }}
         transition={{
           delay: 0.3,
           duration: 0.9,
