@@ -1,5 +1,11 @@
 import React from "react";
-export const NotificationIcon = ({size, height, width, ...props}) => {
+interface NotificationIconProps {
+  size?: number;
+  height?: number;
+  width?: number;
+  [key: string]: any; // To accept additional props
+}
+export const NotificationIcon: React.FC<NotificationIconProps> = ({ size, height, width, ...props }) => {
   return (
     <svg
       fill="none"
