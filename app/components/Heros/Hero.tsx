@@ -7,9 +7,9 @@ export function Hero() {
     
   return (
     <>
-     <div id="servicio" className="gap-5 h-full w-full flex flex-col md:items-center md:justify-center bg-[#020617] antialiased bg-grid-white/[0.02] relative ">
+     <div id="servicio" className="gap-5 flex flex-col md:items-center md:justify-center bg-[#020617] antialiased bg-grid-white/[0.02] relative ">
       <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
+        className="top-40 left-0 md:left-60 md:-top-20"
         fill="white"
       />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">

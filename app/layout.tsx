@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={onest.className}>
-          {children}
+            {children}
         </body>
     </html>
   );
