@@ -17,7 +17,9 @@ export function Service() {
           Nuestros <br /> Servicios
         </h1>
         <p className="mt-10 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-        Seguridad, estilo y garantía en cada detalle. Nuestra misión es hacer realidad tu visión, construyendo juntos un espacio único y cautivador. Descubre la excelencia respaldada por nuestra dedicación y la tranquilidad de nuestra garantía. ¡Bienvenido a una experiencia de construcción donde cada detalle cuenta y tu visión cobra vida!
+        Seguridad, estilo y garantía en cada detalle.
+        <br />
+        ¡Bienvenido a una experiencia de construcción donde cada detalle cuenta y tu visión cobra vida!
         </p>
       </div>
     <ServiceCard/>

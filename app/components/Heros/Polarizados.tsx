@@ -15,7 +15,7 @@ export function Polarizado() {
         </div>
         <div className="gap-10 flex flex-col">
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-            Experimenta la diferencia con nuestra gama de polarizados diseñados para brindar claridad visual, resistencia a arañazos y una apariencia sofisticada. Transforma tu viaje en una experiencia más segura y cómoda, mientras resaltas la estética de tu vehículo con el toque moderno que solo nuestros polarizados pueden ofrecer.
+            Experimenta la diferencia con nuestra gama de polarizados diseñados para brindar claridad visual, resistencia a arañazos y una apariencia sofisticada.
           </p>
           <Imagenes />
         </div>
@@ -30,7 +30,7 @@ export function Polarizado() {
         <div className="gap-10 flex flex-col">
           <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
             Ventas por mayor y menor de films materiales
-            Ofrecemos una gama diversa de films materiales que no solo cumplen con los estándares más exigentes, sino que también añaden un toque             distintivo a tu proyecto. Ya sea que busques soluciones para embalaje, decoración o aplicaciones industriales, nuestra selección            meticulosa y nuestro compromiso con la excelencia te garantizan resultados superiores.
+            Ofrecemos una gama diversa de films materiales que no solo cumplen con los estándares más exigentes, sino que también añaden un toque distintivo a tu proyecto.
           </p>
           <Videos />
           <div>

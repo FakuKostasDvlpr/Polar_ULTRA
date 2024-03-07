@@ -21,7 +21,6 @@ export default function Contacts() {
                     </span>
                     <h2 class="mt-4 text-xl font-medium text-white ">Email</h2>
                     <p class="mt-2 text-md font-bold text-blue-500 dark:text-blue-400">Pamelaximenacalicchio@gmail.com</p>
-                    <p class="mt-2 text-md font-bold text-gray-500 ">Telefono: 1122722249</p>
                 </div>
                 <div class="gap-2">
                 <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
