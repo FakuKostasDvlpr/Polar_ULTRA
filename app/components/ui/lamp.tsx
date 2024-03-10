@@ -17,7 +17,7 @@ export function LampDemo() {
         }}
         className="mt-2 bg-gradient-to-br font-medium from-slate-300 to-slate-500 bg-clip-text text-center text-5xl tracking-tight text-transparent md:text-7xl p-3"
       >
-        Polarsystem <br /> seguridad para tu <span className="text-[#0CB0CD]">auto</span>
+        <span className="text-[#4edcf5] text-8xl">Polarsystem</span> <br /> seguridad para tu auto 
       </motion.h1>
     </LampContainer>
     </>

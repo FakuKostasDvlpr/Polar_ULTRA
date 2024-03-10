@@ -6,7 +6,7 @@ export default function Chips() {
   const ChipsItems = ["Ploteo para tu auto", "Pulido de opticas", "Instalacion de alarmas", "Reparacion de aire"];
 
   return (
-    <div className="grid grid-cols-2 m-2 gap-4">
+    <div className="flex flex-col mt-5 gap-4">
       {ChipsItems.map((chip, index) => (
         <Chip
           key={index} 
