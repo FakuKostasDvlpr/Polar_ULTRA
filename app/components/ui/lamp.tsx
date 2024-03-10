@@ -3,7 +3,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { cn } from "../../utils/cn2";
 
-
 export function LampDemo() {
   return (
     <>
@@ -18,7 +17,7 @@ export function LampDemo() {
         }}
         className="mt-2 bg-gradient-to-br font-medium from-slate-300 to-slate-500 bg-clip-text text-center text-5xl tracking-tight text-transparent md:text-7xl p-3"
       >
-        <span className="text-[#4edcf5] text-[60px]">Polarsystem</span><br />seguridad para tu auto 
+      <span className="text-[#4edcf5] text-[60px]">Polarsystem</span><br />seguridad para tu auto      
       </motion.h1>
     </LampContainer>
     </>
