@@ -8,24 +8,22 @@ export function Header() {
     {
       name: "Home",
       link: "/",
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Servicio",
       link: "#servicio",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
       {
         name: "Polarizados",
         link: "#polarizados",
-        icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
       },
       {
         name: "Contacto",
         link: "#contacto",
-        icon: (
-          <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
-          ),
+        },
+      {
+        name: "Materiales",
+        link: "#materiales",
         },
   ];
   return (
