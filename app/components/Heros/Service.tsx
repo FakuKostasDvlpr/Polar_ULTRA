@@ -7,7 +7,7 @@ export function Service() {
     
   return (
     <>
-     <div id="servicio" className="gap-5 flex flex-col md:items-center md:justify-center bg-[#020617] antialiased bg-grid-white/[0.02] relative ">
+     <section id="servicio" className="h-screen gap-5 flex flex-col md:items-center md:justify-center bg-[#020617] antialiased bg-grid-white/[0.02] relative ">
       <Spotlight
         className="top-40 left-0 md:left-60 md:-top-20"
         fill="#0BA3BF"
@@ -23,7 +23,7 @@ export function Service() {
         </p>
       </div>
     <ServiceCard/>
-    </div>
+    </section>
     </>
    
   );
