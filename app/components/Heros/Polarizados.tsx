@@ -6,6 +6,7 @@ import Videos from "../cards/videos";
 import ObrasTipo from "../cards/Obras-colocacion";
 import MarcasBranding from "../cards/MarcasBranding";
 import { RevealWrapper } from 'next-reveal'
+import Materiales from "./Materiales";
 
 export function Polarizado() {
 
@@ -45,6 +46,9 @@ export function Polarizado() {
           <MarcasBranding />
       </RevealWrapper>
         </section>
+        <div className="flex bg-[#020617]">
+            <Materiales/>
+        </div>
     </>
   );
 }
