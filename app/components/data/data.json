@@ -1,0 +1,102 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "category": "Traslucido",
+            "color": "Azul",
+            "img": "/translucidos-blue-removebg-preview.png",
+            "hex":"#ffb703"
+        },
+        {
+            "id": 2,
+            "category": "Traslucido",
+            "color": "Naranja",
+            "img": "/traslucido-naranja.png",
+            "hex":"#1b1b1b"
+        },
+        {
+            "id": 3,
+            "category": "Traslucido",
+            "color": "Verde",
+            "img": "/traslucido-verde.png",
+            "hex":"#a2d2ff"
+        },
+        {
+            "id": 4,
+            "category": "Traslucido",
+            "color": "Violeta",
+            "img": "/traslucido-violeta.png",
+            "hex":"#ff006e"
+        },
+        {
+            "id": 5,
+            "category": "Espejado Invertido",
+            "color": "Bronce",
+            "img": "/espejado-invertido-bronce.png",
+            "hex":"#3a5a40"
+        },
+        {
+            "id": 6,
+            "category": "Espejado",
+            "color": "Naranja",
+            "img": "/espejado-naranja.png",
+            "hex":"#a7c957"
+        },
+        {
+            "id": 8,
+            "category": "Espejado",
+            "color": "Oro",
+            "img": "/espejado-oro.png",
+            "hex":"#e63946"
+        },
+        {
+            "id": 10,
+            "category": "Espejado",
+            "color": "Rojo",
+            "img": "/espejado-rojo.png",
+            "hex":"#4895ef"
+        },
+        {
+            "id": 11,
+            "category": "Espejado",
+            "color": "Rosa",
+            "img": "/espejado-rosa.png",
+            "hex":"#78290f"
+        },
+        {
+            "id": 12,
+            "category": "Espejado",
+            "color": "Verde",
+            "img": "/espejado-verde.png",
+            "hex":"#00509d"
+        },
+        {
+            "id": 13,
+            "category": "Reflex",
+            "color": "Azul",
+            "img": "/blue-reflex.png",
+            "hex":"#52b788"
+        },
+        {
+            "id": 15,
+            "category": "Reflex",
+            "color": "18%",
+            "img": "/reflex.png",
+            "hex":"#c9184a"
+        },
+        {
+            "id": 16,
+            "category": "Neutral",
+            "color": "Neutral 05",
+            "img": "/neutral-05-premium.png",
+            "hex":"#43aa8b"
+        },
+        {
+            "id": 21,
+            "category": "Neutral",
+            "color": "Gris 05",
+            "img": "/r-gray05.png",
+            "hex":"#eb5e28"
+        }
+    ]
+}
