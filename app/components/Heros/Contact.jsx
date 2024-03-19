@@ -17,7 +17,9 @@ export default function Contacts() {
                     <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
                         <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1 m-5">
                 <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="left" reset={true} >
-                            <div class="gap-2">
+                <div className='gap-10'>
+
+                            <div class="gap-3 p-2">
                                 <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -26,7 +28,7 @@ export default function Contacts() {
                                 <h2 class="mt-4 text-xl font-medium text-white ">Email</h2>
                                 <p class="mt-2 text-md font-bold text-blue-500 dark:text-blue-400">Pamelaximenacalicchio@gmail.com</p>
                             </div>
-                            <div class="gap-2">
+                            <div class="gap-5 p-2">
                                 <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 ">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#4B8AF1" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -36,10 +38,13 @@ export default function Contacts() {
                                     </svg>
                                 </span>
                                 <h2 class="mt-4 text-xl font-medium text-white ">Telefono</h2>
-                                <p class="mt-2 text-md font-bold text-gray-500 ">1122722249</p>
+                                <a href="https://api.whatsapp.com/send?phone=541122722449 " target='_blank' 
+                                className='mt-2 text-md font-bold text-gray-500 underline hover:text-blue-300'>
+                                  1122722249 
+                                </a>
                             </div>
 
-                            <div>
+                            <div className='p-2'>
                                 <span class="inline-block p-3 text-blue-400 rounded-full bg-blue-100/80 dark:bg-gray-800">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock-hour-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 7v5" /><path d="M12 12l2 -3" /></svg>
                                 </span>
@@ -47,6 +52,7 @@ export default function Contacts() {
                                 <h2 class="mt-4 text-xl font-medium text-white">Horarios de atencion</h2>
                                 <p class="mt-2 text-md font-bold text-gray-500">09:00am / 17:00pm</p>
                             </div>
+                    </div>
 
         </RevealWrapper>
                         </div>
