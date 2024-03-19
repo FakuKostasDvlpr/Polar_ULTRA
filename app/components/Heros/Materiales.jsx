@@ -24,7 +24,7 @@ export const Materiales = () => {
             >
                 {images.map((item, index) => (
                     <SwiperSlide id='materiales' className='flex flex-col items-center mx-auto justify-center w-full h-full text-white' key={index}>
-                        <div className='opacity-90 md:rounded-md flex flex-col gap-10 w-full m-10 max-w-[800px] bg-gray-800 rounded-xl'>
+                        <div className='opacity-90 md:rounded-md flex flex-col gap-10 w-full max-w-[800px] bg-gray-800 rounded-xl'>
                             <div className='flex flex-col justify-center items-center bg-transparent rounded-xl w-full mt-20'>
                                 <div className='gap-3 flex-col flex mb-20'>
                                     <div className='bg-transparent border-dashed border-2 px-8 rounded-sm'>
