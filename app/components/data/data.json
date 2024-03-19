@@ -5,98 +5,98 @@
             "category": "Traslucido",
             "color": "Azul",
             "img": "/translucidos-blue-removebg-preview.png",
-            "hex":"#ffb703"
+            "hex": "#0077ff"
         },
         {
             "id": 2,
             "category": "Traslucido",
             "color": "Naranja",
             "img": "/traslucido-naranja.png",
-            "hex":"#1b1b1b"
+            "hex": "#ff6600"
         },
         {
             "id": 3,
             "category": "Traslucido",
             "color": "Verde",
             "img": "/traslucido-verde.png",
-            "hex":"#a2d2ff"
+            "hex": "#00cc00"
         },
         {
             "id": 4,
             "category": "Traslucido",
             "color": "Violeta",
             "img": "/traslucido-violeta.png",
-            "hex":"#ff006e"
+            "hex": "#9900cc"
         },
         {
             "id": 5,
             "category": "Espejado Invertido",
             "color": "Bronce",
             "img": "/espejado-invertido-bronce.png",
-            "hex":"#3a5a40"
+            "hex": "#cd7f32"
         },
         {
             "id": 6,
             "category": "Espejado",
             "color": "Naranja",
             "img": "/espejado-naranja.png",
-            "hex":"#a7c957"
+            "hex": "#ff9900"
         },
         {
             "id": 8,
             "category": "Espejado",
             "color": "Oro",
             "img": "/espejado-oro.png",
-            "hex":"#e63946"
+            "hex": "#ffd700"
         },
         {
             "id": 10,
             "category": "Espejado",
             "color": "Rojo",
             "img": "/espejado-rojo.png",
-            "hex":"#4895ef"
+            "hex": "#ff0000"
         },
         {
             "id": 11,
             "category": "Espejado",
             "color": "Rosa",
             "img": "/espejado-rosa.png",
-            "hex":"#78290f"
+            "hex": "#ff69b4"
         },
         {
             "id": 12,
             "category": "Espejado",
             "color": "Verde",
             "img": "/espejado-verde.png",
-            "hex":"#00509d"
+            "hex": "#00ff00"
         },
         {
             "id": 13,
             "category": "Reflex",
             "color": "Azul",
             "img": "/blue-reflex.png",
-            "hex":"#52b788"
+            "hex": "#66ccff"
         },
         {
             "id": 15,
             "category": "Reflex",
             "color": "18%",
             "img": "/reflex.png",
-            "hex":"#c9184a"
+            "hex": "#cc0033"
         },
         {
             "id": 16,
             "category": "Neutral",
             "color": "Neutral 05",
             "img": "/neutral-05-premium.png",
-            "hex":"#43aa8b"
+            "hex": "#808080"
         },
         {
             "id": 21,
             "category": "Neutral",
             "color": "Gris 05",
             "img": "/r-gray05.png",
-            "hex":"#eb5e28"
+            "hex": "#808080"
         }
     ]
 }
