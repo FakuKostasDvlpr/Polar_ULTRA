@@ -62,9 +62,10 @@ export function Polarizado() {
         <hr className="w-48 h-1 mx-auto my-4 bg-gray-400 border-0 rounded md:my-10 dark:bg-gray-700"/>
         <div className="flex flex-col flex-wrap md:flex-row items-start justify-around gap-20">
           <Materiales />
-          <div className="flex flex-col mx-auto gap-10 sm:mt-40 bg-gray-400 bg-opacity-30 w-[480px] h-[230px] items-start rounded-xl px-10 justify-center">
+          <div className="flex flex-col mx-auto gap-10 sm:mt-40 bg-gray-400 bg-opacity-30 w-[380px] h-[330px] items-start rounded-xl px-10 justify-center">
+            <p className="text-black">Para ver el catálogo completo de tonos y colores, deja tu mensaje</p>
             <p className="text-white">Para ver el catálogo completo de tonos y colores, deja tu mensaje</p>
-            <div>
+          <div>
               <input type="text" value={message} className="p-2 rounded-xl text-yellow-300 outline-none bg-gray-300 bg-opacity-30" onChange={handleChange} placeholder="Escribe tu mensaje..." />
             </div>
             <a href={generateWhatsappLink()} target="_blank" rel="noopener noreferrer">
