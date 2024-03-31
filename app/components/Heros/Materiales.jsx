@@ -14,7 +14,7 @@ export const Materiales = () => {
                 spaceBetween={0}
                 slidesPerView={1}
                 effect={''}
-                className='hover:cursor-grab active:cursor-grabbing w-full max-w-[480px] h-[800px] flex justify-center items-center text-center mt-20'
+                className='hover:cursor-grab active:cursor-grabbing w-full max-w-[380px] h-[800px] flex justify-center items-center text-center mt-20'
                 direction={'horizontal'}
                 autoplay={{
                     delay: 5000,
